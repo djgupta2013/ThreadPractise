@@ -18,7 +18,7 @@ public class FailSafe {
 			map.put(50, "abcd");
 		}
 		System.out.println("Fail-safe");
-		System.out.println("hello ");
+		System.out.println("master ");
 	}
 
 }
