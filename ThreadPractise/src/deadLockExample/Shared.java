@@ -10,6 +10,7 @@ public class Shared {
 		System.out.println(thread.getName()+" is finished executing methodOne");
 	}
 	
+	
 	synchronized void methodTwo(Shared s) {
 		Thread thread=Thread.currentThread();
 		System.out.println(thread.getName()+" is executing methodTwo");
